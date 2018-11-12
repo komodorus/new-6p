@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "title": "Faz Sentido",
+        "cliente": {
+            "id": 3,
+            "title": "sicoob credicitrus"
+        },
+        "segmentos": [
+            {
+                
+            }
+        ],
+        "cover": "http://image.src/cover.png",
+        "prizes": [
+            {
+                "id": 1,
+                "title": "Festin Ouro",
+                "icon": "http://image.src/APP_Icon.png",
+                "link": "http://app.com.br/"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "title": "sicoobcredicitrus"
+            },{
+                "id": 2,
+                "title": "agronegocio"
+            },{
+                "id": 3,
+                "title": "2018"
+            },{
+                "id": 4,
+                "title": "campanha"
+            }
+        ]
+    }
+]
