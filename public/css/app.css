@@ -10485,6 +10485,15 @@ body {
   background-color: #acacac;
 }
 
+.bg-lighter-gray {
+  background-color: #ebebeb;
+}
+
+.btn {
+  -webkit-box-shadow: 0 4px 2px -2px gray;
+          box-shadow: 0 4px 2px -2px gray;
+}
+
 .text-gray {
   color: #a9a9a9 !important;
 }
@@ -10513,12 +10522,25 @@ body {
 }
 
 #map-contato {
-  height: 700px;
+  height: 550px;
   width: 100%;
 }
 
 #form-contato {
-  min-height: 400px;
+  min-height: 420px;
+}
+
+.bg-purple {
+  background-color: #474283;
+}
+
+.btn-secondary {
+  background-color: #474283;
+}
+
+.btn-secondary:hover {
+  background-color: #36326b;
+  border-color: #36326b;
 }
 
 .cursor-pointer:hover {

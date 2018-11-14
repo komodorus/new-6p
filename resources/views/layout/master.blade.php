@@ -40,28 +40,25 @@
 
         <nav class="position-fixed sidenav">
             <div class="d-flex align-items-stretch justify-content-center flex-column text-right">
+                
                 <div class="menu-item position-relative">
                     <a href="{{ route('home') }}" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Home</a>
                 </div> 
                 <div class="menu-item position-relative">
-                    <a href="#" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Blog</a>
-                </div>
-                <div class="menu-item position-relative">
                     <a href="{{ route('aboutus') }}" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Agência</a>
                 </div>
                 <div class="menu-item position-relative">
-                    <a href="#" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Clientes</a>
+                    <a href="{{ route('clientes') }}" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Clientes</a>
                 </div>
                 <div class="menu-item position-relative">
-                    <a href="#" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Serviços</a>
+                    <a href="{{ route('solucoes') }}" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Soluções</a>
                 </div>  
                 <div class="menu-item position-relative">
-                    <a href="#" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Contato</a>
+                    <a href="{{ route('contato') }}" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Contato</a>
                 </div>
-                <div class="menu-item position-relative">
+                <div class="menu-item position-relative"> 
                     <a href="{{ route('portfolio') }}" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Portfólio</a>
                 </div>
-
 
             </div>
         </nav>
@@ -81,7 +78,7 @@
             
         </main>
         
-        <footer class="d-flex align-items-end">
+        <footer class="d-flex align-items-end footer">
             <div id="footer" class="w-100 bg-black">
                 <div class="container-fluid">
                     <div class="row">
@@ -111,7 +108,9 @@
                 </div>
             </div>
         </footer>
-        
+        <script>
+            var base_url = "{{ $app->make('url')->to('/') . '/' }}";
+        </script>
         <script src="{{ asset('js/app.js') }}"></script>
         
         

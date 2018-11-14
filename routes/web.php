@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Request;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,9 +29,13 @@ Route::get('clientes', function(){
     return view('clientes');
 })->name('clientes');
 
+
+
 Route::get('contato', function(){
     return view('contato');
 })->name('contato');
+
+Route::post('contato', 'ContatoController@store');
 
 Route::prefix('dashboard')->group(function(){
 

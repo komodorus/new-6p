@@ -47414,12 +47414,8 @@ var headerOffset;
 var bodySize;
 
 function getSizes() {
-    console.info('getSizes');
-
     headerOffset = $('#nav').height();
     footerOffset = $('#footer').height();
-
-    console.log([headerOffset, footerOffset]);
 
     return $(window).height() - headerOffset;
 }
@@ -47427,25 +47423,17 @@ function getSizes() {
 function setTileHeight() {
     bodySize = getSizes();
 
-    console.info('setTitleHeight');
-
     $('.tiles .tile').css('height', bodySize);
 }
-
-// $(window).on('load', function(){
-
-// });
 
 $(window).ready(function () {
     setTileHeight();
     $('input[name="q"]').focus();
     $('.loader').fadeOut();
     $('#content').removeClass('d-none');
-    // $('#content').fadeIn();
 });
 
 $(window).on('resize', function () {
-    console.info({ 'height': $(window).height(), 'width': $(window).width() });
     setTileHeight();
 });
 

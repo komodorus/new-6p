@@ -42,20 +42,20 @@
         <a class="tile overlay" href="#" style="background-color: rgb(124, 119, 185); background-image: url({{ asset('img/4.jpg') }});">
             <div class="details w-75">
                 <span class="title text-uppercase font-weight-bold text-white h1">
-                    <span class="d-inline" style="color: rgb(124, 119, 185)">/</span>Estrutura<br>e serviços
+                    <span class="d-inline" style="color: rgb(124, 119, 185)">/</span>Contato
                 </span>
                 <span class="info text-white text-uppercase h3 font-weight-light">
-                    Identificamos oportunidades para alavancar negócios. 
+                    Estamos de mente aberta para a sua empresa. 
                 </span>
             </div>
         </a>
         <a class="tile overlay" href="#" style="background-color: rgb(130, 255, 158); background-image: url({{ asset('img/5.jpg') }});">
             <div class="details w-75 text-right" style="left: unset; right: 0">
                 <span class="title text-uppercase font-weight-bold text-white h1">
-                    <span class="d-inline" style="color:rgb(130, 255, 158)">/</span>Contato
+                    <span class="d-inline" style="color:rgb(130, 255, 158)">/</span>Cápsula
                 </span>
                 <span class="info text-white text-uppercase h3 font-weight-light">
-                    Estamos de mente aberta para a sua empresa.
+                    Nosso DNA de inovação nasce aqui. 
                 </span>
             </div>
         </a>
@@ -70,4 +70,11 @@
     </div> --}}
 
 
+@endsection
+
+@section('script')
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script>
+        
+    </script>
 @endsection

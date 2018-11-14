@@ -14,10 +14,6 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
-// footer {
-//   height: 62px;
-// }
-
 // @media screen and (max-width: 767px){
 //   footer {
 //     height: 154px;
@@ -32,6 +28,12 @@ body{
 }
 .bg-light-gray{
   background-color: rgb(172, 172, 172);
+}
+.bg-lighter-gray{
+  background-color: #ebebeb;
+}
+.btn{
+  box-shadow: 0 4px 2px -2px gray;
 }
 .text-gray{
   color: $gray !important;
@@ -60,12 +62,25 @@ body{
 }
 
 #map-contato {
-    height: 700px;
+    height: 550px;
     width: 100%;
 }
 
 #form-contato{
-  min-height: 400px;
+  min-height: 420px;
+}
+
+.bg-purple{
+  background-color: #474283;
+}
+
+.btn-secondary{
+  background-color: #474283;
+}
+
+.btn-secondary:hover {
+    background-color: #36326b;
+    border-color: #36326b;
 }
 
 .cursor-pointer:hover{
