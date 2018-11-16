@@ -1,0 +1,184 @@
+[
+    {
+        "title": "Seja sua melhor versão",
+        "premios": [
+            {
+                "title": "FESTGRAF 2018 APP RIBEIRÃO PRETO"
+            }
+        ],
+        "tags": [
+            "#barao",
+            "#campanha",
+            "#medicina",
+            "#faculdade",
+            "#vestibular2019"
+        ],
+        "solucao": "campanha",
+        "banner": "holder.js/1920x300",
+        "capa": "https://via.placeholder.com/420x350",
+        "conteudo": [
+            {
+                "type": "text", 
+                "padding-y": "10px",
+                "text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias unde cum a perspiciatis in, ut soluta delectus quas voluptatibus suscipit similique aperiam? Sit, ex reiciendis porro quaerat ratione id veniam!</p><p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere impedit, enim iste aut dolorum nemo. Voluptas tempore numquam quasi quae reprehenderit, voluptatem iste repellat natus magni assumenda? Saepe, possimus dignissimos.</b></p>"
+            },
+            {
+                "title": "Video da Campanha",
+                "showTitle": true,
+                "type": "video",
+                "padding-y": "10px",
+                "url": "https://www.youtube.com/watch?v=BK-i4FGAQUw"
+            },
+            {
+                "title": "Anúncio",
+                "type": "image",
+                "showTitle": true,
+                "padding-y": "10px",
+                "image": "holder.js/1920x920"                                
+            },
+            {
+                "title": "Materiais promocionais",
+                "showTitle": true,
+                "type": "carousel",
+                "padding-y": "10px",
+                "images": [
+                    "holder.js/700x350",
+                    "holder.js/700x350",
+                    "holder.js/700x350",
+                    "holder.js/700x350",
+                    "holder.js/700x350"
+                ]
+            },
+            {
+                "title": "Peças Online",
+                "type": "image",
+                "showTitle": true,
+                "padding-y": "10px",
+                "image": "holder.js/1920x920"
+            },
+            {
+                "title": "Resultados",
+                "type": "image",
+                "showTitle": true,
+                "padding-y": "0",
+                "image": "holder.js/1920x920"
+            },
+            {
+                "title": "resultados",
+                "type": "resultados",
+                "resultados": [
+                    {
+                        "valor": "10.000",
+                        "conteudo": "lorem ipsum"
+                    },
+                    {
+                        "valor": "654",
+                        "conteudo": "lorem ipsum"
+                    }
+                ]
+            }
+        ],
+        "cliente": {
+            "title": "Barão de Mauá",
+            "logo": "holder.js/300x300",
+            "segmentos": [
+                {
+                    "title": "Educação"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Faz Sentido",
+        "premios": [
+            {
+                "title": "cannes - Grand Prix - 2018"
+            }
+        ],
+        "tags": [
+            "#2018",
+            "#sicoob",
+            "#agronegocio",
+            "#credicitrus",
+            "#investimento"
+        ],
+        "solucao": "digital",
+        "banner": "holder.js/1920x300",
+        "capa": "https://via.placeholder.com/420x350",
+        "conteudo": [
+            {
+                "type": "text",
+                "padding-y": "10px",
+                "text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias unde cum a perspiciatis in, ut soluta delectus quas voluptatibus suscipit similique aperiam? Sit, ex reiciendis porro quaerat ratione id veniam!</p><p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere impedit, enim iste aut dolorum nemo. Voluptas tempore numquam quasi quae reprehenderit, voluptatem iste repellat natus magni assumenda? Saepe, possimus dignissimos.</b></p>"
+            },
+            {
+                "title": "Video da Campanha",
+                "showTitle": true,
+                "type": "video",
+                "padding-y": "10px",
+                "url": "https://www.youtube.com/watch?v=BK-i4FGAQUw"
+            },
+            {
+                "title": "Anúncio",
+                "type": "image",
+                "showTitle": true,
+                "padding-y": "10px",
+                "image": "holder.js/1920x920"
+            },
+            {
+                "title": "Materiais promocionais",
+                "showTitle": true,
+                "type": "carousel",
+                "padding-y": "10px",
+                "images": [
+                    "holder.js/700x350",
+                    "holder.js/700x350",
+                    "holder.js/700x350",
+                    "holder.js/700x350",
+                    "holder.js/700x350"
+                ]
+            },
+            {
+                "title": "Peças Online",
+                "type": "image",
+                "showTitle": true,
+                "padding-y": "10px",
+                "image": "holder.js/1920x920"
+            },
+            {
+                "title": "Resultados",
+                "type": "image",
+                "showTitle": true,
+                "padding-y": "0",
+                "image": "holder.js/1920x920"
+            },
+            {
+                "title": "resultados",
+                "type": "resultados",
+                "resultados": [
+                    {
+                        "valor": "10.000",
+                        "conteudo": "lorem ipsum"
+                    },
+                    {
+                        "valor": "654",
+                        "conteudo": "lorem ipsum"
+                    }
+                ]
+            }
+        ],
+        "cliente": {
+            "title": "Sicoob Credicitrus",
+            "logo": "holder.js/300x300",
+            "segmentos": [
+                {
+                    "title": "Banco"
+                },
+                {
+                    "title": "Agronegócio"
+                }
+            ]
+        }
+    }
+    
+]

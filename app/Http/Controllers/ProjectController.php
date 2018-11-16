@@ -21,11 +21,11 @@ class ProjectController extends Controller
 
         // dd($query);
 
-        if(!!$search){
-            $projects = Project::where('title', 'like', '%' . $search . '%')->get();
-        }
+        // if(!!$search){
+        //     $projects = Project::where('title', 'like', '%' . $search . '%')->get();
+        // }
 
-        return view('portfolio.list', compact('projects', 'search'));
+        return view('portfolio.list', compact('projects', 'clientes'));
     }
 
     /**

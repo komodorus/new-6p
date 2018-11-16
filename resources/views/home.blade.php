@@ -1,21 +1,18 @@
 @extends('layout.master')
 
 @section('content')
-
     <div class="tiles flex-column flex-md-row" style="display: flex; justify-content: center; flex-wrap: wrap;">
-        <a class="tile overlay" href="#" style="background-color: rgb(108, 205, 222); background-image: url({{ asset('img/1.jpg') }});">
+        <a class="tile overlay" href="{{ route('aboutus') }}" style="background-color: rgb(108, 205, 222); background-image: url({{ asset('img/1.jpg') }});">
             <div class="details w-75">
-                {{-- <div class="wrapper position-relative"> --}}
-                    <span class="title text-uppercase font-weight-bold text-white h1">
-                        <span class="d-inline" style="color:rgb(29, 138, 153)">/</span>Sobre<br>nós
-                    </span>
-                    <span class="info text-white text-uppercase h3 font-weight-light">
-                        Somos uma agência de publicidade situada em Ribeirão Preto.
-                    </span>
-                {{-- </div> --}}
+                <span class="title text-uppercase font-weight-bold text-white h1">
+                    <span class="d-inline" style="color:rgb(29, 138, 153)">/</span>Sobre<br>nós
+                </span>
+                <span class="info text-white text-uppercase h3 font-weight-light">
+                    Somos uma agência de publicidade situada em Ribeirão Preto.
+                </span>
             </div>
         </a>
-        <a class="tile overlay" href="#" style="background-color: rgb(233, 215, 88); background-image: url({{ asset('img/2.jpg') }});">
+        <a class="tile overlay" href="{{ route('solucoes') }}" style="background-color: rgb(233, 215, 88); background-image: url({{ asset('img/2.jpg') }});">
             <div class="details w-75 text-right" style="left: unset; right: 0">
                 <span class="title text-uppercase font-weight-bold text-white h1">
                     <span class="d-inline" style="color:rgb(233, 215, 88)">/</span>Estrutura<br>e soluções
@@ -28,7 +25,7 @@
     </div>
 
     <div class="tiles flex-column flex-md-row" style="display: flex; justify-content: center; flex-wrap: wrap;">
-        <a class="tile overlay" href="#" style="background-color: rgb(29, 138, 153); background-image: url({{ asset('img/3.jpg') }});">
+        <a class="tile overlay" href="{{ route('portfolio', 'query=Seja Sua Melhor Versão') }}" style="background-color: rgb(29, 138, 153); background-image: url({{ asset('img/3.jpg') }});">
             <div class="details">
                 <span class="title text-uppercase font-weight-bold text-white h1">
                     <span class="d-inline" style="color:rgb(29, 138, 153)">/</span>Portfólio
@@ -39,7 +36,7 @@
     </div>
 
     <div class="tiles flex-column flex-md-row" style="display: flex; justify-content: center; flex-wrap: wrap;">
-        <a class="tile overlay" href="#" style="background-color: rgb(124, 119, 185); background-image: url({{ asset('img/4.jpg') }});">
+        <a class="tile overlay" href="{{ route('contato') }}" style="background-color: rgb(124, 119, 185); background-image: url({{ asset('img/4.jpg') }});">
             <div class="details w-75">
                 <span class="title text-uppercase font-weight-bold text-white h1">
                     <span class="d-inline" style="color: rgb(124, 119, 185)">/</span>Contato
@@ -60,15 +57,6 @@
             </div>
         </a>
     </div>
-
-    {{-- <div class="tiles flex-column flex-md-row" style="display: flex; justify-content: center; flex-wrap: wrap;">
-        <a class="tile overlay" href="#" style="background-color: rgb(29, 138, 153); background-image: url({{ asset('img/6.jpg') }});">
-            <div class="details">
-                <span class="info text-white text-uppercase h3 font-weight-light"><span class="d-inline font-weight-bold">Faz sentido </span>sicoob credicitrus</span>
-            </div>
-        </a>
-    </div> --}}
-
 
 @endsection
 

@@ -172,6 +172,42 @@
                 </div>
             </div>
         </div>
+        <div class="row">   
+            <div class="col">   
+                <div class="slider-for">
+                    <div class="text-center">
+                        <p class="w-75 mx-auto">
+                            1Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <p class="w-75 mx-auto">
+                            2Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <p class="w-75 mx-auto">
+                            3Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <p class="w-75 mx-auto">
+                            4Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <p class="w-75 mx-auto">
+                            5Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <p class="w-75 mx-auto">
+                            6Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="container">
@@ -328,12 +364,19 @@
                 item.addClass('active');
 
             });
-
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                asNavFor: '.slick-carousel'
+            });
             $('.slick-carousel').slick({
                 centerMode: true,
                 centerPadding: '60px',
                 autoplay: true,
                 slidesToShow: 3,
+                asNavFor: '.slider-for',
+                focusOnSelect: true,
                 responsive: [
                     {
                         breakpoint: 768,

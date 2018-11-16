@@ -9,7 +9,6 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Rubik:300,400,700" rel="stylesheet">
         <title>{{ env('APP_NAME') }}</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.4/dist/scrollreveal.min.js"></script>
         @yield('style')
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">    
     </head>
