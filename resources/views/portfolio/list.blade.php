@@ -21,9 +21,9 @@
     <div class="w-100 bg-dark">
         <div class="container-fluid py-3">
             <ul class="nav justify-content-start">
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a href="#" class="mx-3 py-3 text-white dropdown-toggle" id="clientes_dropdown" data-toggle="dropdown">
-                        Projetos
+                        Segmento
                     </a>
                     <div class="dropdown-menu rounded-0" aria-labelledby="clientes_dropdown">
                         @foreach ($clientes as $cliente)
@@ -35,22 +35,22 @@
                 </li>
                 <li class="nav-item">
                     <a href="#" class="mx-3 py-3 text-white dropdown-toggle" id="servicos_dropdown" data-toggle="dropdown">
-                        Soluções
+                        Clientes
                     </a>
                     <div class="dropdown-menu rounded-0" aria-labelledby="servicos_dropdown">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item disabled" href="#">Disabled action</a>
                     </div>
-                </li> --}}
-                {{-- <li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a href="#" class="mx-3 py-3 text-white dropdown-toggle" id="segmento_dropdown" data-toggle="dropdown">
-                        Segmento
+                        Soluções
                     </a>
                     <div class="dropdown-menu rounded-0" aria-labelledby="segmento_dropdown">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item disabled" href="#">Disabled action</a>
                     </div>
-                </li> --}}
+                </li>
             </ul>
         </div>
     </div>
