@@ -243,7 +243,7 @@ html {
   margin-right: auto;
   left: 0;
   right: 0;
-  top: 50%;
+  // top: 50%;
 }
 
 .sk-folding-cube {
@@ -420,29 +420,30 @@ a:hover{
   display: block;
 }
 
-.slick-carousel .slick-slide {
+#about-carousel .slick-carousel .slick-slide {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
-.slick-carousel .slick-center {
+#about-carousel .slick-carousel .slick-center {
   -webkit-transform: scale(1.8);
   transform: scale(1.8);
 }
-.slick-next{
+#about-carousel .slick-next{
   right: 0;
 }
-.slick-prev{
+#about-carousel .slick-prev{
   left: 0;
 }
-.slick-prev,
-.slick-next{
+#about-carousel .slick-prev,
+#about-carousel .slick-next{
   height: 40px;
   width: 40px;
+  z-index: 1;
 }
 
-.slick-prev:before,
-.slick-next:before {
+#about-carousel .slick-prev:before,
+#about-carousel .slick-next:before {
   color: #8e8e8e;
   opacity: 1;
   font-size: 40px;

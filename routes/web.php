@@ -17,7 +17,8 @@ Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('portfolio', 'ProjectController@index')->name('portfolio');
-Route::get('portfolio/tag/{slug?}', 'TagController@show')->name('portfolio.search');
+Route::get('portfolio/{id}', 'ProjectController@show')->name('portfolio.show');
+// Route::get('portfolio/tag/{slug?}', 'TagController@show')->name('portfolio.search');
 
 Route::get('sobre-nos', 'AboutController@index')->name('aboutus');
 

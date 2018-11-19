@@ -15,35 +15,35 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2 col-sm-4 col-6 border p-4">
-                <img src="{{ asset('img/cliente-anglo.png') }}" class="img-fluid d-block mx-auto w-75" alt="">
+            <div class="col-md-2 col-sm-4 col-6 border p-4 d-flex">
+                <img data-src="{{ asset('img/cliente-anglo.png') }}" src="{{ asset('img/ajax-loader.gif') }}" class="lozad img-fluid d-block mx-auto align-self-center" alt="">
             </div>
-            <div class="col-md-2 col-sm-4 col-6 border p-4">
-                <img src="{{ asset('img/cliente-algar.png') }}" class="img-fluid d-block mx-auto w-75" alt="">
+            <div class="col-md-2 col-sm-4 col-6 border p-4 d-flex">
+                <img data-src="{{ asset('img/cliente-algar.png') }}" src="{{ asset('img/ajax-loader.gif') }}" class="lozad img-fluid d-block mx-auto align-self-center" alt="">
             </div>
-            <div class="col-md-2 col-sm-4 col-6 border p-4">
-                <img src="{{ asset('img/cliente-barao.png') }}" class="img-fluid d-block mx-auto w-75" alt="">
+            <div class="col-md-2 col-sm-4 col-6 border p-4 d-flex">
+                <img data-src="{{ asset('img/cliente-barao.png') }}" src="{{ asset('img/ajax-loader.gif') }}" class="lozad img-fluid d-block mx-auto align-self-center" alt="">
             </div>
-            <div class="col-md-2 col-sm-4 col-6 border p-4">
-                <img src="{{ asset('img/cliente-bom-jesus.png') }}" class="img-fluid d-block mx-auto w-75" alt="">
+            <div class="col-md-2 col-sm-4 col-6 border p-4 d-flex">
+                <img data-src="{{ asset('img/cliente-bom-jesus.png' ) }}" src="{{ asset('img/ajax-loader.gif') }}" class="lozad img-fluid d-block mx-auto align-self-center" alt="">
             </div>
-            <div class="col-md-2 col-sm-4 col-6 border p-4">
-                <img src="{{ asset('img/cliente-iguatemi.png') }}" class="img-fluid d-block mx-auto w-75" alt="">
+            <div class="col-md-2 col-sm-4 col-6 border p-4 d-flex">
+                <img data-src="{{ asset('img/cliente-iguatemi.png') }}" src="{{ asset('img/ajax-loader.gif') }}" class="lozad img-fluid d-block mx-auto align-self-center" alt="">
             </div>
-            <div class="col-md-2 col-sm-4 col-6 border p-4">
-                <img src="{{ asset('img/cliente-somos.png') }}" class="img-fluid d-block mx-auto w-75" alt="">
+            <div class="col-md-2 col-sm-4 col-6 border p-4 d-flex">
+                <img data-src="{{ asset('img/cliente-somos.png') }}" src="{{ asset('img/ajax-loader.gif') }}" class="lozad img-fluid d-block mx-auto align-self-center" alt="">
             </div>
-            <div class="col-md-2 col-sm-4 col-6 border p-4">
-                <img src="{{ asset('img/cliente-credicitrus.png') }}" class="img-fluid d-block mx-auto w-75" alt="">
+            <div class="col-md-2 col-sm-4 col-6 border p-4 d-flex">
+                <img data-src="{{ asset('img/cliente-credicitrus.png') }}" src="{{ asset('img/ajax-loader.gif') }}" class="lozad img-fluid d-block mx-auto align-self-center" alt="">
             </div>
-            <div class="col-md-2 col-sm-4 col-6 border p-4">
-                <img src="{{ asset('img/cliente-bee.png') }}" class="img-fluid d-block mx-auto w-75" alt="">
+            <div class="col-md-2 col-sm-4 col-6 border p-4 d-flex">
+                <img data-src="{{ asset('img/cliente-bee.png') }}" src="{{ asset('img/ajax-loader.gif') }}" class="lozad img-fluid d-block mx-auto align-self-center" alt="">
             </div>
-            <div class="col-md-2 col-sm-4 col-6 border p-4">
-                <img src="{{ asset('img/cliente-anglo.png') }}" class="img-fluid d-block mx-auto w-75" alt="">
+            <div class="col-md-2 col-sm-4 col-6 border p-4 d-flex">
+                <img data-src="{{ asset('img/cliente-anglo.png') }}" src="{{ asset('img/ajax-loader.gif') }}" class="lozad img-fluid d-block mx-auto align-self-center" alt="">
             </div>
-            <div class="col-md-2 col-sm-4 col-6 border p-4">
-                <img src="{{ asset('img/cliente-algar.png') }}" class="img-fluid d-block mx-auto w-75" alt="">
+            <div class="col-md-2 col-sm-4 col-6 border p-4 d-flex">
+                <img data-src="{{ asset('img/cliente-algar.png') }}" src="{{ asset('img/ajax-loader.gif') }}" class="lozad img-fluid d-block mx-auto align-self-center" alt="">
             </div>
         </div>
     </div>

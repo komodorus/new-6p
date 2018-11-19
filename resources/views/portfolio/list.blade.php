@@ -7,7 +7,7 @@
             <div class="col my-5">
                 <form action="{{ route('portfolio') }}" method="GET" autocomplete="off">
                     <div class="form-group">
-                        <input type="text" name="query" id="q" class="border-0 py-3 d-block mx-auto text-dark text-center w-100" style="font-size: 1.5rem; outline: none" placeholder="/ PESQUISAR" 
+                        <input type="text" name="query" id="q" class="border-0 py-3 d-block mx-auto text-dark text-center w-100 font-weight-light h1 mb-0" style="outline: none" placeholder="/ PESQUISAR" 
                             @if (request()->input('query'))
                                 value="{{ request()->input('query') }}"
                             @endif
@@ -122,26 +122,22 @@
         };
         
         $(document).ready(function(){
-            $.get(base_url + 'portfolio.json', function(data, status){
-                // console.log(data)
-            }).done(function(data, status){
-
+            $.get(base_url + 'portfolio.json', function(data, status){}).done(function(data, status){
                 projects = data;
-                
                 var fuse = new Fuse(projects, options)
-
+    
                 if($('#q').val() != ''){
                     renderProjects(fuse.search($('#q').val()));
                 }else{
                     renderProjects(data);
                 }
-
+    
                 $('#q').on('input', function(){
+                    console.log('inputChanged');
                     var searchData = fuse.search($(this).val());
-                    // console.log(searchData);
                     search(searchData);
                 });
-
+    
             });
 
         })

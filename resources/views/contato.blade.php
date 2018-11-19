@@ -40,7 +40,7 @@
                         <p>Qual tipo de serviço você precisa?</p>
                         <button class="choice btn btn-secondary text-center mb-3 form-control" data-name="tipo_servico" data-value="branding" data-tab="1" type="button">Branding</button>
                         <button class="choice btn btn-secondary text-center mb-3 form-control" data-name="tipo_servico" data-value="digital" data-tab="5" type="button">Digital (Facebook, Instagram etc.)</button>
-                        <button class="choice btn btn-secondary text-center mb-3 form-control" data-name="tipo_servico" data-value="na" data-tab="6" type="button">Só quero tomar um café e bater um papo.</button>
+                        <button class="choice btn btn-secondary text-center mb-3 form-control" data-name="tipo_servico" data-value="tomar um café" data-tab="6" type="button">Só quero tomar um café e bater um papo.</button>
                     </div>
                     {{-- dados da empresa 1 --}}
                     <div class="col my-5 w-100 tab mx-auto">

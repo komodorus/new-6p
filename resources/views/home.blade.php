@@ -25,7 +25,7 @@
     </div>
 
     <div class="tiles flex-column flex-md-row" style="display: flex; justify-content: center; flex-wrap: wrap;">
-        <a class="tile overlay" href="{{ route('portfolio', 'query=Seja Sua Melhor Versão') }}" style="background-color: rgb(29, 138, 153); background-image: url({{ asset('img/3.jpg') }});">
+        <a class="tile overlay" href="{{ route('portfolio') . '/1' }}" style="background-color: rgb(29, 138, 153); background-image: url({{ asset('img/3.jpg') }});">
             <div class="details">
                 <span class="title text-uppercase font-weight-bold text-white h1">
                     <span class="d-inline" style="color:rgb(29, 138, 153)">/</span>Portfólio

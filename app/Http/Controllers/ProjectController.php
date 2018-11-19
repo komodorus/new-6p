@@ -55,9 +55,15 @@ class ProjectController extends Controller
      * @param  \App\Project  $project
      * @return \Illuminate\Http\Response
      */
-    public function show(Project $project)
+    public function show($id)
     {
-        //
+
+        $path = asset('portfolio.json'); // ie: /var/www/laravel/app/storage/json/filename.json
+
+        $json = json_decode(file_get_contents($path));
+        $project = $json[$id - 1];
+
+        return view('portfolio.main', compact('project'));
     }
 
     /**

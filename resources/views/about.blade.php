@@ -150,7 +150,7 @@
     <div class="container">
         <div class="row">
             <div class="col py-5">
-                <div class="slick-carousel">
+                <div id="about-carousel" class="slick-carousel">
                     <div class="item">
                         <img src="{{ asset('img/logo_cenp.png') }}" class="img-fluid" alt="logo cenp">
                     </div>

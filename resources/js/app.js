@@ -21,6 +21,7 @@ const app = new Vue({
     el: '#app'
 });
 
+
 var headerOffset;
 var bodySize;
 
@@ -38,11 +39,16 @@ function setTileHeight(){
     $('.tiles .tile').css('height', bodySize);
 }
 
-$(window).ready(function () {
+$(document).ready(function () {
     setTileHeight();
-    $('input[name="q"]').focus();
-    $('.loader').fadeOut();
-    $('#content').removeClass('d-none');
+
+    var observer = lozad();
+    observer.observe();
+    
+    $('.loader').css('display', 'none');
+    $('#content').css('display', 'initial');
+    
+
 });
 
 $(window).on('resize', function(){

@@ -71,7 +71,7 @@
             </div>
         </div>
 
-        <main class="d-none" id="content">
+        <main id="content" style="display: none">
             
             @yield('content')
             
@@ -110,11 +110,8 @@
         <script>
             var base_url = "{{ $app->make('url')->to('/') . '/' }}";
         </script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
         <script src="{{ asset('js/app.js') }}"></script>
-        
-        
         @yield('script')
-    
-    
     </body>
 </html>
