@@ -43,6 +43,9 @@
                 <div class="menu-item position-relative">
                     <a href="{{ route('home') }}" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Home</a>
                 </div> 
+                <div class="menu-item position-relative"> 
+                    <a href="{{ route('portfolio') }}" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Portfólio</a>
+                </div>
                 <div class="menu-item position-relative">
                     <a href="{{ route('aboutus') }}" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Agência</a>
                 </div>
@@ -54,9 +57,6 @@
                 </div>  
                 <div class="menu-item position-relative">
                     <a href="{{ route('contato') }}" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Contato</a>
-                </div>
-                <div class="menu-item position-relative"> 
-                    <a href="{{ route('portfolio') }}" class="font-weight-bold h2 d-block text-uppercase py-3 px-5">Portfólio</a>
                 </div>
 
             </div>

@@ -14,47 +14,45 @@
             "#vestibular2019"
         ],
         "solucao": "campanha",
-        "banner": "holder.js/1920x300",
-        "capa": "https://via.placeholder.com/420x350",
+        "banner": "img/portfolio/barao/banner.png",
+        "capa": "img/portfolio/barao/capa.png",
         "conteudo": [
             {
                 "type": "text", 
-                "paddingY": "4",
-                "text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias unde cum a perspiciatis in, ut soluta delectus quas voluptatibus suscipit similique aperiam? Sit, ex reiciendis porro quaerat ratione id veniam!</p><p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere impedit, enim iste aut dolorum nemo. Voluptas tempore numquam quasi quae reprehenderit, voluptatem iste repellat natus magni assumenda? Saepe, possimus dignissimos.</b></p>"
+                "paddingY": "3",
+                "text": "<p>O universo musical permeia a criação desta campanha que demonstra o protagonismo do aluno. A música, interpretada por Thalita Bronze, cantora ativa na cena hip hop, aproxima, engaja e faz com os jovens se identifiquem, agregando valor e simpatia à marca.</p><p>A intenção com a letra da canção era despertar o interesse, gerar associações com o cotidiano e fazer com que as pessoas assimilassem melhor a mensagem, fixando-a na mente.&nbsp;</p><p>A campanha demonstra o protagonismo do aluno com o conceito “Seja sua melhor versão”: um chamamento para os jovens realizarem seus planos e sonhos, começando pelo ingresso na faculdade.</p><p>O visual e o casting foram cuidadosamente escolhidos para expressar a diversidade. Tudo isso combinado à música, cria uma atmosfera que remete ao universo dos estudantes, gerando associações imediatas ao que eles almejam.</p><p>Essa é uma campanha que encoraja e empodera os jovens, despertando a vontade de fazer um curso superior em uma instituição que vem se atualizando e se reinventando ao longo da sua história. Com isso, conseguimos fazer com que a Barão de Mauá falasse de igual para igual com o jovem, participando ativamente do seu mundo.</p>"
             },
             {
                 "title": "Video da Campanha",
-                "showTitle": true,
+                "showTitle": false,
                 "type": "video",
-                "paddingY": "4",
+                "paddingY": "0",
                 "url": "https://www.youtube.com/embed/BK-i4FGAQUw"
             },
             {
                 "title": "Anúncio",
                 "type": "image",
-                "showTitle": true,
-                "paddingY": "4",
-                "image": "https://file.mockplus.com/image/2017/11/86afa439-7c78-4ad7-8529-245aaa51e9a2.jpg"                                
+                "showTitle": false,
+                "paddingY": "0",
+                "image": "img/portfolio/barao/1.jpg"
             },
             {
                 "title": "Materiais promocionais",
-                "showTitle": true,
+                "showTitle": false,
                 "type": "carousel",
-                "paddingY": "4",
+                "paddingY": "5",
                 "images": [
-                    "https://cdn.dribbble.com/users/72506/screenshots/2362591/branding-mockup-db_1x.jpg",
-                    "https://free-psd-templates.com/wp-content/uploads/2015/11/free_real__photo_identity__mock-up_stationery_branding.jpg",
-                    "https://cdn.dribbble.com/users/626093/screenshots/2081107/03_burger_bar_stationery_mockup_1x.jpg",
-                    "https://i.pinimg.com/originals/bc/20/01/bc20015ed52507631f6b07d83f448fd4.jpg",
-                    "https://cdn.dribbble.com/users/114519/screenshots/3314145/03-magna-scene_1x.jpg"
+                    "img/portfolio/barao/carousel.png",
+                    "img/portfolio/barao/carousel-2.png",
+                    "img/portfolio/barao/carousel-3.png"
                 ]
             },
             {
                 "title": "Peças Online",
                 "type": "image",
-                "showTitle": true,
-                "paddingY": "4",
-                "image": "http://appazov.kz/design/wp-content/uploads/2018/03/Isometric-Square-Hardcover-Book-Mockup.jpg"
+                "showTitle": false,
+                "paddingY": "5",
+                "image": "img/portfolio/barao/2.png"
             },
             {
                 "title": "resultados",
@@ -72,99 +70,13 @@
             }
         ],
         "cliente": {
-            "title": "Barão de Mauá",
-            "logo": "holder.js/150x150",
+            "title": "Centro universitário Barão de Mauá",
+            "logo": "img/cliente-barao.png",
             "segmentos": [
                 {
                     "title": "Educação"
                 }
             ]
         }
-    },
-    {
-        "title": "Faz Sentido",
-        "premios": [
-            {
-                "title": "cannes - Grand Prix - 2018"
-            }
-        ],
-        "tags": [
-            "#2018",
-            "#sicoob",
-            "#agronegocio",
-            "#credicitrus",
-            "#investimento"
-        ],
-        "solucao": "digital",
-        "banner": "holder.js/1920x300",
-        "capa": "https://via.placeholder.com/420x350",
-        "conteudo": [
-            {
-                "type": "text",
-                "paddingY": "4",
-                "text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias unde cum a perspiciatis in, ut soluta delectus quas voluptatibus suscipit similique aperiam? Sit, ex reiciendis porro quaerat ratione id veniam!</p><p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere impedit, enim iste aut dolorum nemo. Voluptas tempore numquam quasi quae reprehenderit, voluptatem iste repellat natus magni assumenda? Saepe, possimus dignissimos.</b></p>"
-            },
-            {
-                "title": "Video da Campanha",
-                "showTitle": true,
-                "type": "video",
-                "paddingY": "4",
-                "url": "https://www.youtube.com/embed/BK-i4FGAQUw"
-            },
-            {
-                "title": "Anúncio",
-                "type": "image",
-                "showTitle": true,
-                "paddingY": "4",
-                "image": "holder.js/1920x920"
-            },
-            {
-                "title": "Materiais promocionais",
-                "showTitle": true,
-                "type": "carousel",
-                "paddingY": "4",
-                "images": [
-                    "holder.js/700x350",
-                    "holder.js/700x350",
-                    "holder.js/700x350",
-                    "holder.js/700x350",
-                    "holder.js/700x350"
-                ]
-            },
-            {
-                "title": "Peças Online",
-                "type": "image",
-                "showTitle": true,
-                "paddingY": "4",
-                "image": "holder.js/1920x920"
-            },
-            {
-                "title": "resultados",
-                "type": "resultados",
-                "resultados": [
-                    {
-                        "valor": "10.000",
-                        "conteudo": "lorem ipsum"
-                    },
-                    {
-                        "valor": "654",
-                        "conteudo": "lorem ipsum"
-                    }
-                ]
-            }
-        ],
-        "cliente": {
-            "title": "Sicoob Credicitrus",
-            "logo": "holder.js/150x150",
-            "segmentos": [
-                {
-                    "title": "Banco"
-                },
-                {
-                    "title": "Agronegócio"
-                }
-            ]
-        }
-    }
-    
+    }    
 ]

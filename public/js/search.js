@@ -15,7 +15,7 @@ function renderProjects(data) {
 function setProject(index, projeto) {
     var html =
         '<div class="col-sm-6 col-md-4 col-lg-3">' +
-        '<div class="bg-dark p-3 d-flex flex-wrap" style="background-image: url(' + projeto.capa + '); height: 350px; background-blend-mode: multiply; background-position: center; backgrond-size: cover">' +
+        '<div class="bg-dark p-3 d-flex flex-wrap" style="background-image: url(' + projeto.capa + '); height: 350px; background-blend-mode: multiply; background-position: center; background-repeat: no-repeat; background-size: cover;">' +
         '<div class="d-block w-100">' +
         '<a href="' + base_url + 'portfolio/' + (index + 1) + '" class="h4 text-uppercase text-white d-block w-100 font-weight-light">' + projeto.title + '</a>' +
         '<h4 class="text-uppercase font-weight-bold text-white d-block w100 mb-3">' +

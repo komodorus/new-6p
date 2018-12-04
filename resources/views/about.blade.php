@@ -49,7 +49,7 @@
                                 <div class="row pt-4">
                                     <div class="col">
                                         <p class="h2 text-white font-weight-bold mb-0">
-                                            Daniel Melusá
+                                            Daniel Malusá
                                         </p>
                                         <p class="h2 text-white">
                                             CEO
@@ -80,7 +80,7 @@
                                             Karin Rossi
                                         </p>
                                         <p class="h2 text-white">
-                                            CEO
+                                            CCO
                                         </p>
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@
                                             Silvia Bianchi
                                         </p>
                                         <p class="h2 text-white">
-                                            Diretora de Planejamento
+                                            Head of Planner
                                         </p>
                                     </div>
                                 </div>
@@ -177,32 +177,32 @@
                 <div class="slider-for">
                     <div class="text-center">
                         <p class="w-75 mx-auto">
-                            1Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                            Certificação que garante nossa qualificação técnica, pautada em atividades éticas e melhores práticas comerciais.                        
                         </p>
                     </div>
                     <div class="text-center">
                         <p class="w-75 mx-auto">
-                            2Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                            Fazemos parte da Associação dos Profissionais de Propaganda de Ribeirão Preto, reconhecida nacionalmente por seus festivais na área e seu fomento ao desenvolvimento dos profissionais do mercado.                        
                         </p>
                     </div>
                     <div class="text-center">
                         <p class="w-75 mx-auto">
-                            3Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
                         </p>
                     </div>
                     <div class="text-center">
                         <p class="w-75 mx-auto">
-                            4Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                            Certificação que comprova nossa especialização em produtos Google.
                         </p>
                     </div>
                     <div class="text-center">
                         <p class="w-75 mx-auto">
-                            5Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                            Agências de Comunicação e Marketing sediadas nos principais polos regionais do Estado de SP reunidas e integrando o maior mercado brasileiro publicidade. 
                         </p>
                     </div>
                     <div class="text-center">
                         <p class="w-75 mx-auto">
-                            6Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque libero error, voluptas quas dolorem sint illum enim laudantium eum accusamus aperiam ullam unde inventore, dolore ducimus temporibus saepe at nostrum.
+                            Certificação que garante nossa excelência em Inbound Marketing e no uso da plataforma RD Station.                         
                         </p>
                     </div>
                 </div>
@@ -237,13 +237,13 @@
                                     festgraf 2018 app ribeirão preto
                                 </p>
                                 <p class="text-dark text-justify">
-                                    Agências de Comunicação e Marketing sediadas nos principais polos regionais do Estado de SP reunidas e integrando o maior mercado brasileiro publicidade. 
+                                    - Ouro - <b>Site Maluli</b>
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="btn btn-lg btn-block text-white text-uppercase font-weight-light text-center" style="white-space: normal; background-color: rgb(124, 119, 185)">
+                                <a href="{{ route('portfolio') }}" class="btn btn-lg btn-block text-white text-uppercase font-weight-light text-center" style="white-space: normal; background-color: #474283">
                                     Conheça os projetos vencedores <b>aqui</b>
                                 </a>
                             </div>
@@ -260,16 +260,17 @@
                         <div class="row">
                             <div class="col mt-3">
                                 <p class="h3 text-uppercase text-gray font-weight-light">
-                                    festgraf 2018 app ribeirão preto
+                                    PROFISSIONAIS DO ANO 2015
                                 </p>
                                 <p class="text-dark text-justify">
-                                    Agências de Comunicação e Marketing sediadas nos principais polos regionais do Estado de SP reunidas e integrando o maior mercado brasileiro publicidade. 
+                                    - Campanha vai la e faz <br>
+                                    <b>Barão de Mauá</b>
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="btn btn-lg btn-block text-white text-uppercase font-weight-light text-center" style="white-space: normal; background-color: rgb(29, 138, 153)">
+                                <a href="{{ route('portfolio') }}" class="btn btn-lg btn-block text-white text-uppercase font-weight-light text-center" style="white-space: normal; background-color: #1d8a99">
                                     Conheça os projetos vencedores <b>aqui</b>
                                 </a>
                             </div>
@@ -289,13 +290,19 @@
                                     festgraf 2018 app ribeirão preto
                                 </p>
                                 <p class="text-dark text-justify">
-                                    Agências de Comunicação e Marketing sediadas nos principais polos regionais do Estado de SP reunidas e integrando o maior mercado brasileiro publicidade. 
+                                    -Grand Prix - Guerra Silenciosa  
+                                    <b>Bee or not to Bee </b>
+                                    <br>
+                                    -Ouro – Ilustração – Guerra Silenciosa - <b>Bee or not to Bee</b>
+                                    <br>
+                                    - Ouro – Técnica Display – Colmeia 
+                                    <b>Bee or not to Bee</b>
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="btn btn-lg btn-block text-white text-uppercase font-weight-light text-center" style="white-space: normal; background-color: rgb(233, 215, 88)">
+                                <a href="{{ route('portfolio') }}" class="btn btn-lg btn-block text-white text-uppercase font-weight-light text-center" style="white-space: normal; background-color: #a99509">
                                     Conheça os projetos vencedores <b>aqui</b>
                                 </a>
                             </div>
@@ -304,7 +311,7 @@
                 </div>
             </div>
             <div class="col-lg-6 my-5">
-                <div class="row">
+                <div class="row h-100">
                     <div class="col-md-6 d-flex">
                         <img src="{{ asset('img/trofeu-act.png') }}" class="img-fluid w-50 mx-auto d-block align-self-center" alt="">
                     </div>
@@ -312,16 +319,16 @@
                         <div class="row">
                             <div class="col mt-3">
                                 <p class="h3 text-uppercase text-gray font-weight-light">
-                                    festgraf 2018 app ribeirão preto
+                                    2015 – Cannes Tributes ACT Responsible  
                                 </p>
                                 <p class="text-dark text-justify">
-                                    Agências de Comunicação e Marketing sediadas nos principais polos regionais do Estado de SP reunidas e integrando o maior mercado brasileiro publicidade. 
+                                    – Prata – Planet No Bee No Food <br><b>Bee or not to Bee</b>
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="btn btn-lg btn-block text-white text-uppercase font-weight-light text-center" style="white-space: normal; background-color: rgb(130, 255, 158)">
+                                <a href="{{ route('portfolio') }}" class="btn btn-lg btn-block text-white text-uppercase font-weight-light text-center" style="white-space: normal; background-color: #41a257;">
                                     Conheça os projetos vencedores <b>aqui</b>
                                 </a>
                             </div>

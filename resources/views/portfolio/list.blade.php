@@ -26,11 +26,11 @@
                         Segmento
                     </a>
                     <div class="dropdown-menu rounded-0" aria-labelledby="clientes_dropdown">
-                        @foreach ($clientes as $cliente)
+                        {{-- @foreach ($clientes as $cliente) --}}
                             <a class="dropdown-item" href="#">Segmento</a>
                             <a class="dropdown-item" href="#">Premiações</a>
                             <a class="dropdown-item" href="#">Clientes</a>
-                        @endforeach
+                        {{-- @endforeach --}}
                     </div>
                 </li>
                 <li class="nav-item">
@@ -69,15 +69,15 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters projects">
 
-        @empty($projects)
+        {{-- @empty($projects)
             <div class="col py-5 my-5">
                 <p class="h1 text-center text-uppercase text-dark">
                     Nenhum projeto encontrado
                 </p>
             </div>
-        @endempty
+        @endempty --}}
 
-        @foreach ($projects as $project)
+        {{-- @foreach ($projects as $project)
             <div class="col-3">
                 <div class="bg-dark p-3 d-flex flex-wrap" style="background-image: url('{{ $project->cover()->path }}'); height: 420px; background-blend-mode: multiply; background-position: center;">
                     <div class="d-block w-100">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
             </div>
-        @endforeach
+        @endforeach --}}
         </div>
     </div>
 

@@ -16,8 +16,8 @@ class ProjectController extends Controller
      */
     public function index(Request $request)
     {
-        $projects = Project::all();
-        $clientes = Client::all();
+        // $projects = Project::all();
+        // $clientes = Client::all();
 
         // dd($query);
 
@@ -25,7 +25,7 @@ class ProjectController extends Controller
         //     $projects = Project::where('title', 'like', '%' . $search . '%')->get();
         // }
 
-        return view('portfolio.list', compact('projects', 'clientes'));
+        return view('portfolio.list');
     }
 
     /**
@@ -57,9 +57,7 @@ class ProjectController extends Controller
      */
     public function show($id)
     {
-
         $path = asset('portfolio.json'); // ie: /var/www/laravel/app/storage/json/filename.json
-
         $json = json_decode(file_get_contents($path));
         $project = $json[$id - 1];
 

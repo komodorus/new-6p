@@ -43,14 +43,15 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        
-        
+        return response()->json([
+            $request->all()
+        ]);
         $validate = $this->validate($request, [
             'title' => 'required',
             'client_id' => 'required'
             ]);
             
-        $files = $request->file('images');
+        // $files = $request->file('images');
 
         $project = Project::create([
             'title' => request('title'),
@@ -73,22 +74,26 @@ class ProjectController extends Controller
             }
         }
 
-        foreach($files as $file){
+        // foreach($files as $file){
 
-            $path = $file->store('uploads/projects');
+        //     $path = $file->store('uploads/projects');
 
-            Images::create([
-                'project_id' => $project->id,
-                'path' => Storage::url($path)
-            ]);
-        }
+        //     Images::create([
+        //         'project_id' => $project->id,
+        //         'path' => Storage::url($path)
+        //     ]);
+        // }
 
-        $capa = $request->file('capa')->store('uploads/projects');
+        $capa = $request->file('avatar')->store('uploads/projects');
 
         Images::create([
             'project_id' => $project->id,
             'path' => Storage::url($capa),
             'cover' => true
+        ]);
+
+        return response()->json([
+            'mensagem' => 'successo'
         ]);
 
         return redirect('dashboard')->with('status', 'Projeto criado com sucesso!');

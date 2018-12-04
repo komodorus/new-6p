@@ -18,6 +18,7 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css">
     
     <!-- Styles -->
     <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet">
@@ -98,7 +99,8 @@
     <script src="{{ asset('js/dashboard.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/gh/mouse0270/bootstrap-notify/bootstrap-notify.min.js"></script>
     <script>
-        $('[data-toggle="tooltip"]').tooltip()
+        var base_url = '{{ env("APP_URL") . "dashboard/" }}';
+        $('[data-toggle="tooltip"]').tooltip();
     </script>
 
     @yield('scripts')

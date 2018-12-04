@@ -2,12 +2,12 @@
 
 @section('content')
     <div class="w-100">
-        <img src="{{ $project->banner }}" alt="" class="img-fluid d-block mx-auto">
+        <img src="{{ asset($project->banner) }}" alt="" class="img-fluid d-block mx-auto">
     </div>
     <div class="container">
         <div class="row mt-5">
             <div class="col-md-2">
-                <img src="{{ $project->cliente->logo }}" class="img-fluid d-block mx-auto">
+                <img src="{{ asset($project->cliente->logo) }}" class="img-fluid d-block mx-auto">
             </div>
             <div class="col-md-10 d-flex justify-content-center flex-column">
                 <p class="h4 text-uppercase text-secondary">
@@ -21,6 +21,7 @@
                 </p>
             </div>
         </div>
+        <hr class="mt-5">
     </div>
 
     <section class="parser">
@@ -38,7 +39,9 @@
                 @case('image')
                 <div class="{!! $item->paddingY ? 'py-' . $item->paddingY : '' !!}">
                     <div class="w-100">
-                        <img src="{{ $item->image }}" alt="" class="img-fluid mx-auto d-block">
+                        <a data-fancybox="gallery" href="{{ asset($item->image) }}">
+                            <img src="{{ asset($item->image) }}" alt="" class="img-fluid mx-auto d-block">
+                        </a>
                     </div>
                     <div class="container">
                         @if ($item->showTitle)
@@ -77,12 +80,12 @@
                     </div>
                     @break
                 @case('carousel')
-                    <div class="container">
+                    <div class="container {!! $item->paddingY ? 'py-' . $item->paddingY : '' !!}">
                         <div class="row">
                             <div class="col">
                                 <div class="portfolio-carousel">
                                     @foreach ($item->images as $img)
-                                        <img src="{{ $img }}" alt="">
+                                        <img src="{{ asset($img) }}" alt="">
                                     @endforeach
                                 </div>
                             </div>
@@ -124,10 +127,12 @@
 @section('style')
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
 @endsection
 @section('script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
     <script>
         $('.portfolio-carousel').slick({
             dots: true,

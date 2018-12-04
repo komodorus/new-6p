@@ -22,7 +22,6 @@
                         </div>
 
                         <div class="card-body">
-
                             <div class="form-group">
                                 <label for="clientSelect">
                                     Cliente 
@@ -65,30 +64,59 @@
                             </div>
                             
                             <div class="form-group">
-                                <label for="title">Capa</label>
-                                <div class="custom-file">
+                                <label class="d-block" for="title">Escolher imagem de capa</label>
+                                <label class="label" data-toggle="tooltip" title="Adicionar imagem">
+                                    <img class="img-fluid" id="avatar" width="400" height="350" src="https://www.foot.com/wp-content/uploads/2017/03/placeholder.gif" alt="avatar">
+                                    <input type="file" class="sr-only" id="input" name="image" accept="image/*">
+                                </label>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                </div>
+                                <div class="alert" role="alert"></div>
+                                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modalLabel">Ajustar imagem</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="img-container">
+                                                    <img id="image" src="https://avatars0.githubusercontent.com/u/3456749">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-primary" id="crop">Crop</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{-- <div class="custom-file">
                                     <input type="file" name="capa" class="custom-file-input" id="customFile" required multiple>
                                     <label class="custom-file-label" for="customFile">Escolher capa</label>
-                                </div>
+                                </div> --}}
                             </div>
 
-                            <div class="form-group">
+                            {{-- <div class="form-group">
                                 <label for="title">Imagens</label>
                                 <div class="custom-file">
                                     <input type="file" name="images[]" class="custom-file-input" id="customFile" required multiple>
                                     <label class="custom-file-label" for="customFile">Escolher imagens</label>
                                 </div>
-                            </div>
+                            </div> --}}
 
-                            <div class="form-group">
+                            <div class="form-group font-family-rubik">
                                 <label for="conteudo">Conteúdo</label>
                                 <textarea class="summernote" name="conteudo" id="conteudo" rows="13"></textarea>
                             </div>
-
+                            <input type="hidden" name="capa" value="">
                         </div>
 
                         <div class="card-footer">
-                            <button type="submit" class="btn btn-success btn-block">Salvar</button>
+                            <button id="criar" type="submit" class="btn btn-success btn-block">Salvar</button>
                         </div>
 
                     </div>
